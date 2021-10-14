@@ -1,0 +1,292 @@
+:root{
+    --main-green: #15b323;
+    --main-font: 'Roboto', sans-serif;
+}
+
+
+body {
+    margin: 0;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Header Start
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+div.header{
+    background-color: #111111;
+}
+
+
+li.manu-iteam{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    padding: 30px 30px;
+    margin: 0px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: var(--main-font);
+}
+
+li.manu-iteam:hover, .active {
+    background-color: var(--main-green);
+}
+
+img.logo{
+    width: 150px;
+    position: relative;
+    left: 50px;
+}
+
+ul.main-manu{
+    position: absolute;
+    top: 22px;
+    left: 300px;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Banner Start
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+div.banner{
+    background-image: url(banner.jpg);
+    height: 1000px;
+
+}
+
+h1.main-title{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'roboto', sans-serif;
+    margin-bottom: -5px;
+}
+
+p.after-title{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'roboto', sans-serif;
+    line-height: 60px;
+}
+
+button.learn{
+    width: 500px;
+    height: 55px;
+    font-size: 30px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+
+    transition: 0.5s;
+    
+}
+
+button.learn:hover{
+    background-color: var(--main-green);
+    color: #fff;
+}
+
+div.banner-contant{
+    position: absolute;
+    top: 300px;
+    left: 20%;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Courses Start
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+h1.main-title-in-courses{
+    font-size: 100px;
+    font-family: var(--main-font);
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.course-01, div.course-02, div.course-03{
+    margin-top: 10px;
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+img.course-img{
+    width:500px;
+    border-radius: 10px;
+}
+
+h1.course-title{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 40px;
+}
+
+p.course-about{
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button.buy-course{
+    background-color: #111111;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.buy-div{
+    width: 300px;
+    margin: auto;
+}
+
+
+div.course-01, div.course-02,div.course-03 {
+    float: left;
+}
+
+div.course-content{
+    padding-top: 50px;
+    width: 1900px;
+    margin: auto;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     About Learn Tech Plus
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+div.about{
+    background-image: url(banner.jpg);
+}
+
+div.clear{
+    width: 100;
+    height: 50px;
+    clear: both;
+}
+
+
+h1.about-title{
+    font-size: 80px;
+    font-family: var(--main-font);
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;    
+}
+
+div.about-iteam-content {
+    color: #fff;
+    text-align: center;
+    width: 450px;
+    height: 250px;
+    border: 5px solid #fff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: var(--main-font);
+    margin-bottom: 50px;
+    padding-top: 40px;
+    margin: 0px 20px;
+    float: right;
+}
+
+h1.about-iteam-title{
+    font-size: 50px;
+}
+
+h1.aboutnumber{
+    font-size: 40px;
+}
+
+div.about-content {
+    width: 2000px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Learn Tech
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+h1.main-title-in-learn{
+    font-size: 100px;
+    font-family: var(--main-font);
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.learn-01, div.learn-02, div.learn-03{
+    margin-top: 10px;
+    width: 500px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+img.learn-img{
+    width:500px;
+    border-radius: 10px;
+}
+
+h1.learn-title{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 40px;
+}
+
+p.learn-about{
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+button.learn-now{
+    background-color: #111111;
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.learn-div{
+    width: 300px;
+    margin: auto;
+}
+
+
+div.learn-01, div.learn-02,div.learn-03 {
+    float: left;
+}
+
+div.learn-content{
+    padding-top: 50px;
+    width: 1900px;
+    margin: auto;
+}
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                     Footer
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+div.footer{
+    clear: both;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-family: var(--main-font);
+    font-size: 15px;
+}
